@@ -1,0 +1,93 @@
+module Frog (x, y, up, down, left, right, victory, game_over, reset, CLK);
+	input logic up, down, left, right, reset, CLK, game_over;
+	output logic [3:0] x, y;
+	output logic victory;
+	
+	typedef enum logic [2:0] {RESET, GAME_ON, VICTORY, GAME_OVER} state_t;
+	state_t state, next_state;
+	
+	assign victory = (state == VICTORY);
+	
+	
+	always_ff @(posedge CLK) begin
+			state <= next_state;
+	end
+	
+	
+	always_comb begin
+		case (state)
+			RESET: 
+				if(~reset & (up | down | left | right))
+					next_state = GAME_ON;
+				else begin
+					next_state = state;
+				end
+			GAME_ON: 
+				if(reset) begin
+					next_state = RESET;
+				end
+				else if (y == 15) begin
+					next_state = VICTORY;
+				end
+				else if (game_over) begin
+					next_state = GAME_OVER;
+				end
+				else
+					next_state = state;
+			VICTORY: 
+				if(reset)
+					next_state = RESET;
+				else
+					next_state = state;
+			GAME_OVER:
+				if(reset)
+					next_state = RESET;
+				else
+					next_state = state;
+					
+			default: next_state = RESET;
+		endcase
+	end
+		
+		
+		
+	always_ff @(posedge CLK) begin
+		if(state == RESET) begin
+			x <= 0;
+			y <= 8;
+		end
+		
+		else if (state == GAME_ON) begin
+			if(up & down) 
+				y <= y;
+			else if (down & y != 0)
+				y <= y - 1;
+			else if (up & y != 15)
+				y <= y + 1;
+			else if (y == 0 | y == 15)
+				y <= y;
+			else
+				y <= y;
+				
+			
+			if (left & right)
+				x <= x;
+			else if (left & x != 0)
+				x <= x - 1;
+			else if (right & x != 15)
+				x <= x + 1;
+			else if (x == 0 | x == 15)
+				x <= x;
+			else
+				x <= x;
+		end
+		
+		else if (state == VICTORY | state == GAME_OVER) begin
+			x <= x;
+			y <= y;
+		end
+	end
+
+			
+			
+				

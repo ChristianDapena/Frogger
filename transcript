@@ -1,0 +1,210 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_Testbench
+# 
+# Top level modules:
+# 	DE1_SoC_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./inSync.sv 
+# -- Compiling module inSync
+# -- Compiling module inSync_Testbench
+# 
+# Top level modules:
+# 	inSync_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./row.sv 
+# -- Compiling module row
+# -- Compiling module row_Testbench
+# 
+# Top level modules:
+# 	row_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./LED_test.sv 
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# 
+# Top level modules:
+# 	LED_test_testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_Testbench
+# 
+# Top level modules:
+# 	userInput_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./Frogger.sv 
+# -- Compiling module Frogger
+# -- Compiling module Frogger_testbench
+# 
+# Top level modules:
+# 	Frogger_testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./Frog.sv 
+# -- Compiling module Frog
+# -- Compiling module Frog_Testbench
+# 
+# Top level modules:
+# 	Frog_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./row.sv 
+# -- Compiling module row
+# -- Compiling module row_Testbench
+# 
+# Top level modules:
+# 	row_Testbench
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:50 on Aug 21,2026
+# vlog -reportprogress 300 ./count_cars.sv 
+# -- Compiling module count_cars
+# 
+# Top level modules:
+# 	count_cars
+# End time: 12:49:50 on Aug 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_Testbench 
+# Start time: 12:49:51 on Aug 21,2026
+# Loading sv_std.std
+# Loading work.DE1_SoC_Testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.inSync
+# Loading work.userInput
+# Loading work.Frogger
+# Loading work.Frog
+# Loading work.row
+# Loading work.count_cars
+# ** Warning: (vsim-3015) ./Frogger.sv(66): [PCDPC] - Port size (4) does not match connection size (16) for port 'x'. The port definition is at: ./Frog.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/kermit File: ./Frog.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(66): [PCDPC] - Port size (4) does not match connection size (16) for port 'y'. The port definition is at: ./Frog.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/kermit File: ./Frog.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[0]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (4) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[0]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[1]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[1]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[2]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[2]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[3]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[3]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[4]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[4]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[5]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[5]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[6]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (4) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[6]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[7]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[7]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[8]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[8]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[9]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[9]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[10]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[10]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[11]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[11]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[12]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (4) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[12]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[13]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[13]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[14]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(80): [PCDPC] - Port size (5) does not match connection size (32) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[14]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (32) for port 'y'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[15]/genblk1/rows_with_cars File: ./row.sv
+# ** Warning: (vsim-3015) ./Frogger.sv(76): [PCDPC] - Port size (5) does not match connection size (4) for port 'max_cars'. The port definition is at: ./row.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_Testbench/dut/lets_ribbit/frogRows[15]/genblk1/rows_with_cars File: ./row.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(191)
+#    Time: 10750 ps  Iteration: 1  Instance: /DE1_SoC_Testbench
+# Break in Module DE1_SoC_Testbench at ./DE1_SoC.sv line 191
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 15:15:08 on Aug 21,2026, Elapsed time: 2:25:17
+# Errors: 7, Warnings: 35

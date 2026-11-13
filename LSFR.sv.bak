@@ -1,0 +1,46 @@
+module LSFR(CLK, out, Reset);
+	input logic CLK, Reset;
+	output logic [9:0] out;
+	
+
+	always_ff @(posedge CLK) begin
+		if(Reset)
+			out <= 10'b0000000000;
+		else begin
+			out[0] <= (out[9] & out[6]) | (~out[9] & ~out[6]);
+			out[1] <= out[0];
+			out[2] <= out[1];
+			out[3] <= out[2];
+			out[4] <= out[3];
+			out[5] <= out[4];
+			out[6] <= out[5];
+			out[7] <= out[6];
+			out[8] <= out[7];
+			out[9] <= out[8];
+		end
+	end
+endmodule
+	
+	
+module LSFR_Testbench();
+	logic CLK, Reset;
+	logic [9:0] out;
+	
+	LSFR dut(.CLK(CLK), .out(out), .Reset(Reset));
+	
+	
+	parameter CLOCK_PERIOD=100;
+	initial begin
+		CLK <= 0;
+		forever #(CLOCK_PERIOD/2) CLK <= ~CLK; // Forever toggle the clock
+	end
+	
+	initial begin
+		Reset <= 1;				repeat(5)  @(posedge CLK);
+		Reset <= 0;				repeat(20) @(posedge CLK);
+		Reset <= 1;				repeat(5)  @(posedge CLK);
+		Reset <= 0;				repeat(10) @(posedge CLK);
+		$stop;
+	end
+endmodule
+		

@@ -1,0 +1,11 @@
+module inSync (in, clock, out);
+	input logic in, clock;
+	output logic out;
+	
+	logic synchronized;
+	
+	always_ff @(posedge clock) begin
+		synchronized <= in;
+		out <= synchronized;
+	end
+endmodule
